@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue Directive for Medium.js</title>
+  <style>
+    div.Medium.Medium-rich {
+      min-height: 300px;
+    }
+  </style>
+  <link href="bower_components/Medium.js/medium.css" rel="stylesheet">
+</head>
+<body>
+<div v-medium>
+  <p>edit me</p>
+  <hr>
+  <p>or me</p>
+</div>
+</body>
+<script src="bower_components/rangy-official/rangy-core.js"></script>
+<script src="bower_components/rangy-official/rangy-classapplier.js"></script>
+<script src="bower_components/vue/dist/vue.js"></script>
+<script src="bower_components/Medium.js/medium.js"></script>
+<script src="vue-medium.js"></script>
+<script>
+  new Vue({
+    el: 'body'
+  });
+</script>
+</html>

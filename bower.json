@@ -1,0 +1,35 @@
+{
+  "name": "vue-medium.js",
+  "main": "vue-medium.js",
+  "homepage": "https://github.com/robertleeplummerjr/vue-medium.js",
+  "authors": [
+    "Robert Plummer <robertleeplummerjr@gmail.com>"
+  ],
+  "description": "A Vue.js directive for Medium.js",
+  "moduleType": [],
+  "keywords": [
+    "contenteditable",
+    "edit",
+    "content",
+    "wysiwyg",
+    "vue",
+    "vue.js",
+    "vuejs",
+    "medium",
+    "medium.js",
+    "mediumjs",
+    "editor",
+    "simple"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Medium.js": "medium.js#~1.0.1"
+  }
+}
